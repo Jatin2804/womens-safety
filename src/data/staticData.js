@@ -1,7 +1,13 @@
 /**
  * Static data for Women's Safety & Community (India-focused)
  * No APIs - all content is defined here
+ * Images are imported from src/assets
  */
+
+import selfDefenceImg from '../assets/images/self_defence.webp';
+import travelSafetyImg from '../assets/images/travel_safety.jpg';
+import nightSafetyImg from '../assets/images/night_safety.jpg';
+import emergencyPreparednessImg from '../assets/images/emergency_preparednes.jpg';
 
 // Carousel slides (clickable → scroll to sections)
 export const carouselSlides = [
@@ -36,7 +42,7 @@ export const safetyAccordions = [
   {
     id: 'self-defense',
     title: 'Self-Defense Tips',
-    image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=250&fit=crop',
+    image: selfDefenceImg,
     fallbackText: 'Self-defense awareness',
     content: [
       'Always share your live location with trusted contacts when traveling.',
@@ -49,7 +55,7 @@ export const safetyAccordions = [
   {
     id: 'travel',
     title: 'Travel Safety Tips',
-    image: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&h=250&fit=crop',
+    image: travelSafetyImg,
     fallbackText: 'Travel safety',
     content: [
       'Prefer well-lit, crowded routes.',
@@ -62,7 +68,7 @@ export const safetyAccordions = [
   {
     id: 'night',
     title: 'Night Safety Tips',
-    image: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&h=250&fit=crop',
+    image: nightSafetyImg,
     fallbackText: 'Night safety',
     content: [
       'Avoid walking alone at night; use cab/auto from verified apps.',
@@ -75,7 +81,7 @@ export const safetyAccordions = [
   {
     id: 'emergency',
     title: 'Emergency Preparedness',
-    image: 'https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=400&h=250&fit=crop',
+    image: emergencyPreparednessImg,
     fallbackText: 'Emergency preparedness',
     content: [
       'Save emergency contacts: 112 (national emergency), 1091 (women helpline), 100 (police).',

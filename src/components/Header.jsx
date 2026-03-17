@@ -49,20 +49,32 @@ function Header() {
     >
       <Toolbar sx={{ justifyContent: 'space-between', minHeight: { xs: 56, sm: 64 } }}>
         {/* Logo + Title */}
-        <Box component={Link} to="/home" sx={{ display: 'flex', alignItems: 'center', gap: 1, textDecoration: 'none', color: 'inherit' }}>
-          <IconButton color="inherit" size="large" aria-label="Logo">
-            <ShieldIcon sx={{ fontSize: 32 }} />
+        <Box
+          component={Link}
+          to="/home"
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: { xs: 0.5, sm: 1 },
+            textDecoration: 'none',
+            color: 'inherit',
+            minWidth: 0,
+            flex: 1,
+          }}
+        >
+          <IconButton color="inherit" size="small" aria-label="Logo" sx={{ p: { xs: 0.5, sm: 1 } }}>
+            <ShieldIcon sx={{ fontSize: { xs: 22, sm: 32 } }} />
           </IconButton>
           <Typography
             variant="h6"
             component="span"
             sx={{
               fontWeight: 700,
-              fontSize: { xs: '0.95rem', sm: '1.1rem' },
-              whiteSpace: 'nowrap',
-              overflow: 'hidden',
-              textOverflow: 'ellipsis',
-              maxWidth: { xs: 140, sm: 280 },
+              fontSize: { xs: '0.75rem', sm: '1.1rem' },
+              lineHeight: 1.2,
+              whiteSpace: { xs: 'normal', sm: 'nowrap' },
+              overflow: 'visible',
+              maxWidth: { xs: 'none', sm: 280 },
             }}
           >
             Women's Safety & Community

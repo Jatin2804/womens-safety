@@ -34,7 +34,7 @@ function AccordionItem({ title, image, fallbackText, children, defaultExpanded =
             onError={() => setImgError(true)}
             sx={{
               width: '100%',
-              maxHeight: 200,
+              maxHeight: 400,
               objectFit: 'cover',
               borderRadius: 2,
               mb: 2,
