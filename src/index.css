@@ -1,0 +1,13 @@
+/* Global: smooth scroll and minimal reset for MUI app */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+  max-width: 100%;
+}
