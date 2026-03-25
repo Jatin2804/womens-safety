@@ -11,7 +11,7 @@ import {
 import SendIcon from '@mui/icons-material/Send';
 import emailjs from '@emailjs/browser';
 
-const RECIPIENT_EMAIL = 'suryawanshijatin07@gmail.com';
+const RECIPIENT_EMAIL = 'bhumikajaiswal193@gmail.com';
 
 /**
  * Complaint form: Name, Email, Phone, Description.
